@@ -12,7 +12,7 @@
 		<dl>
 			<dt>Name</dt>
 			<dd>
-				<?=  ?>
+			
 			</dd>
 			
 			<dt>Section</dt>
