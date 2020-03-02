@@ -6,23 +6,24 @@
 	<title>Document</title>
 </head>
 <body>
+	<?php include 'buyagrade.php' ?>
 	<h1>Thanks Suckers!</h1>
 
 	<h2>Your information has been corrupted!</h2>
 		<dl>
 			<dt>Name</dt>
 			<dd>
-			
+			<?= echo $_POST["name"]; ?>
 			</dd>
 			
 			<dt>Section</dt>
 			<dd>
-				???
+				<?= echo $_POST["section"]; ?>
 			</dd>
 			
 			<dt>Credit Card</dt>
 			<dd>
-				???
+				<?= echo $_POST["card"]; ?>
 			</dd>
 		</dl>
 		
