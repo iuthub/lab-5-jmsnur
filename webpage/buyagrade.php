@@ -14,45 +14,32 @@
 		<hr />
 		
 		<h2>Give Us Your Money</h2>
-		<dl>
-			<dt>Name</dt>
-			<dd>
-			<form action="suckers.php" method="post">
-				<div>
-					<input type="text" name="name" />
-				</div>
-			</form>
-			</dd>
+		<form action="suckers.php" method="post">
+			<dl>
+				<dt>Name</dt>
+				<dd>
+				<input type="text" name="name" />
+				</dd>
+				<dt>Section</dt>
+				<dd>
+				<input type="text" name="section" />
+			</div>
 			
-			<dt>Section</dt>
-			<dd>
-			<form action="suckers.php" method="post">
-				<div>
-					<input type="text" name="Section" />
-				</div>
-			</form>
 			</dd>
 			
 			<dt>Credit Card</dt>
 			<dd>
-			<form action="suckers.php" method="post">
-				<div>
-					<input type="text" name="card" /><br/>
-					<input type="radio" id="visa" name="card" value="visa">
-					<label for="male">Visa</label>
-					<input type="radio" id="master" name="card" value="master">
-					<label for="female">Master</label>
-				</div>
-			</form>
+			<div>
+				<input type="text" name="card" /><br/>
+				<input type="radio" id="visa" name="card1" value="visa">
+				<label for="male">Visa</label>
+				<input type="radio" id="master" name="card1" value="master">
+				<label for="female">Master</label>
+			</div>
+			
 			</dd>
 		</dl>
-		
-		<div>
-			<form action="suckers.php" method="post">
-				<div>
-					<input type="submit" value="I am a giant sucker." name="submit" />
-				</div>
-			</form>
-		</div>
-	</body>
+		<input type="submit" value="I am a giant sucker." name="submit" />
+	</form>
+</body>
 </html>
